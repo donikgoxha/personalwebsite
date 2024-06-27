@@ -1,0 +1,126 @@
+body, html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00FF00;
+    margin: 0;
+    padding: 0;
+<<<<<<< HEAD
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh;
+    width: 100vw;
+    line-height: 1.5; /* Set default line height */
+    overflow-x: hidden;
+    overflow-y: auto;  /* Make the entire page scrollable */
+    min-height: 100vh;
+
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    background-color: rgba(34, 34, 34, 0.85);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+<<<<<<< HEAD
+    margin: 20px;
+=======
+    text-align: center;
+    margin: 20px auto; /* Center the container */
+>>>>>>> 983334720decd6e0f1c6882126e48e26341a48ab
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #00FF00;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00FF00;
+    text-align: center;
+}
+
+.about-me {
+    text-align: center; /* Center text in About Me section */
+}
+
+.about-me .summary {
+    font-size: 1em;
+    color: #00FF00;
+    margin: 0 auto;
+    max-width: 500px;
+    line-height: 1.25; /* Increase line height for readability */
+    text-align: center; /* Ensure text alignment is centered */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+    background-color: #00FF00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #000000;
+}
+
+.cv {
+    text-align: center; /* Left align text in CV section */
+}
+
+.cv .cv-content p, .cv .cv-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5; /* Set line height for cv content */
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #00FF00;
+    margin: 10px 0;
+}
+
+.cv-content {
+    text-align: left;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #00FF00;
+    margin: 20px 0;
+}
